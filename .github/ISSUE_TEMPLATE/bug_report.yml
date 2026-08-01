@@ -1,0 +1,46 @@
+name: Bug report
+description: Something behaved incorrectly. 报告一个错误行为
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        **Do not paste other people's personal information.** Mask names, phone numbers and
+        addresses in any screenshot before attaching it — this is a public repository.
+        **请不要粘贴他人的个人信息**，截图中的姓名、电话、地址请先遮挡，这是公开仓库。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened 发生了什么
+      description: What you saw, and what you expected instead. 你看到什么、原本期待什么。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce 复现步骤
+      placeholder: |
+        1. Open ...
+        2. Send ...
+        3. The record shows ...
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where 使用场景
+      options:
+        - Web (marsdata.ai)
+        - iOS app
+        - Installed PWA
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: Roughly when 大致时间
+      description: Date and time, with your timezone. 日期时间与所在时区。
+      placeholder: e.g. 2026-08-01 around 21:30 UTC+8
+    validations:
+      required: false

@@ -1,0 +1,13 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question (Q&A)
+    url: https://github.com/Mars-CRM-Agent/marsdata-ai/discussions/categories/q-a
+    about: >-
+      Questions belong in Discussions, not Issues — answers there are public and searchable,
+      so the next person with the same question finds it. 提问请走 Discussions。
+  - name: Read the FAQ first
+    url: https://github.com/Mars-CRM-Agent/marsdata-ai/blob/main/FAQ.md
+    about: Data security, platforms, memory, supported inputs. 常见问题 · 常見問題
+  - name: Use Marsdata AI
+    url: https://marsdata.ai
+    about: Open the product. 打开产品

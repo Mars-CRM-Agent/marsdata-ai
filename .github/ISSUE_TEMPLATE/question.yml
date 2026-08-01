@@ -1,0 +1,38 @@
+name: Question about how Marsdata works
+description: Ask about a capability, a behaviour, or whether Marsdata can do something. 关于产品能力或行为的提问
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Most questions are better asked in
+        [Discussions → Q&A](https://github.com/Mars-CRM-Agent/marsdata-ai/discussions/categories/q-a),
+        where answers stay searchable for everyone. Use this form only if you specifically want an
+        issue thread. 大多数问题更适合发到 Discussions 的 Q&A 分类。
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question 你的问题
+      description: What are you trying to find out? 你想弄清楚什么？
+      placeholder: e.g. Does Marsdata read a WeChat screenshot into a person's record automatically?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What you already tried 你已经试过什么
+      description: What you did, and what you expected instead. 你做了什么、你原本期待什么。
+    validations:
+      required: false
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where 使用场景
+      options:
+        - Web (marsdata.ai)
+        - iOS app
+        - Installed PWA
+        - Not specific to one platform
+    validations:
+      required: false
