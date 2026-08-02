@@ -11,6 +11,38 @@ receive, keeps a structured record of every person in it, and tells you who to f
 
 ---
 
+## A tour of the app
+
+**The welcome screen answers before you ask.** Open Mars and the analysis is already done: who has
+gone quiet, which promises are still open, who among the people you just met is worth following up.
+
+![Welcome screen with the analysis already done](./assets/product-welcome.webp)
+
+**Ask about a person and the answer comes from their record.** Not from the conversation you happen
+to be having — from the dated interaction log, the ledger of what was given and received, and the
+typed fields, read at the moment you ask.
+
+![A chat answer built from a person's structured record](./assets/product-chat.webp)
+
+**Atlas turns your contacts into a map.** A navigable graph of who introduced whom and which topics
+connect to which people; a node grows with how much you actually know about that person.
+
+![Atlas relation nebula rendering the whole contact graph](./assets/product-atlas.webp)
+
+**Every person is one structured record.** The interaction log on the left, the synthesized read in
+the middle, every typed field on the right — with a full history of every change underneath.
+
+![A person's dossier: interaction log, profile and CRM fields](./assets/product-person-dossier.webp)
+
+**All of it stays browsable.** Every person you have told Mars about, in one list, each with the line
+that says where the relationship currently stands.
+
+![The relationship list with one summary line per person](./assets/product-relations-list.webp)
+
+*Screenshots of the live product, running on a demo account built from simulated data.*
+
+---
+
 ## The problem it solves
 
 Everyone you meet who could matter — an investor introduced at a conference, a mentor who answered
@@ -73,8 +105,9 @@ All data is stored in your own private cloud space with per-user isolation. Mars
 standard for how data is collected, processed and protected, and never sells or shares your data,
 person profiles, or conversation history with anyone.
 
-Every screenshot in this repository is an illustrative mock-up built from simulated data, with
-identifying values masked. No real user's information appears anywhere here.
+Every screenshot in this repository is either an illustrative mock-up or the live product running on
+a demo account. In both cases the data is simulated and identifying values are masked. No real user's
+information appears anywhere here.
 
 ## Questions
 
