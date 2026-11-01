@@ -15,28 +15,29 @@
 **欢迎页在你开口之前就把分析做完了。** 打开 Mars，答案已经在那里：谁最近冷下来了、还有哪些承诺没兑现、
 刚认识的人里谁最值得继续跟进。
 
-![欢迎页打开时分析已经做完](./assets/product-welcome.webp)
+<p><img src="./assets/wiki-relationship-insights.webp" alt="欢迎页打开时分析已经做完，旁边是联系人的洞察" width="76%"> <img src="./assets/wiki-relationship-insights.phone.webp" alt="欢迎页打开时分析已经做完 — iPhone" width="22%"></p>
 
 **问一个人，答案来自他的档案。** 不是来自你当下这段对话，而是在你提问的那一刻，读取按日期排列的互动日志、
 记录往来的账本和结构化字段。
 
-![基于结构化档案生成的回答](./assets/product-chat.webp)
+<p><img src="./assets/open-social-accounts-in-one-tap.webp" alt="对话回答列出这个人档案里保存的账号" width="76%"> <img src="./assets/open-social-accounts-in-one-tap.phone.webp" alt="基于档案生成的回答 — iPhone" width="22%"></p>
 
-**Atlas 把联系人变成一张图。** 谁把谁引荐给你、哪些话题连着哪些人，一张可导航的关系图谱；你对一个人了解
-得越多，他的节点就越大。
+**随口一提，日程和人脉一起更新。** 在对话中告诉 Mars 即将到来的会面，它会保存事件并关联参与人；按日、周、月
+查看安排，同一条事件也出现在每位相关人物的「事件」页。
 
-![Atlas 关系星云渲染出完整的关系图谱](./assets/product-atlas.webp)
+<p><img src="./assets/wiki-events-calendar.webp" alt="「事件」页的月视图日历" width="76%"> <img src="./assets/wiki-events-calendar.phone.webp" alt="「事件」页日历 — iPhone" width="22%"></p>
 
-**每个人都是一份结构化档案。** 左边是互动日志，中间是综合判断，右边是全部结构化字段——下面还有每一次变更的
-完整历史。
+**每个人都是一份结构化档案。** Mars 从对话中提炼的信息归入「基本信息」「家庭」「人脉」「事业与团队」
+「技术与工具」「观念与偏好」等清晰分组；这个人的对话、事件和洞察就在旁边的标签页。
 
-![某个人的档案：互动日志、综合判断与结构化字段](./assets/product-person-dossier.webp)
+<p><img src="./assets/wiki-contact-information-groups.webp" alt="人物档案：信息按分组展示" width="76%"> <img src="./assets/wiki-contact-information-groups.phone.webp" alt="人物档案 — iPhone" width="22%"></p>
 
-**这一切都可以随时翻阅。** 你告诉过 Mars 的每一个人都在同一个列表里，每人一行，写清这段关系目前处在哪。
+**这一切都可以随时翻阅。** 你告诉过 Mars 的每一个人都在同一个列表里，按最近互动排序，每人一行，写清这段关系
+目前处在哪。
 
-![关系列表，每人一行摘要](./assets/product-relations-list.webp)
+<p><img src="./assets/wiki-relationship-list.webp" alt="关系列表，每人一行摘要" width="76%"> <img src="./assets/wiki-relationship-list.phone.webp" alt="关系列表 — iPhone" width="22%"></p>
 
-*以上为产品实际界面截图，运行在一个由模拟数据构建的演示账号上。*
+*以上为产品网页端与 iPhone 的实际界面截图，运行在一个使用虚构数据的演示账号上。*
 
 ---
 
@@ -57,23 +58,24 @@
 记录往来的账本，以及完整的变更历史。每条信息都是独立字段——改一条只改这一条；删一条，这个人以及其余信息、
 历史记录原样保留。
 
-### 你身边的人成为一张图
+### 机会和风险，它先替你看见
 
-Atlas 把你的联系人渲染成一张可导航的关系图谱——谁把谁引荐给你、哪些话题连着哪些人、谁的轨道最近安静了。
-点中一个人，关键信息像卫星一样环绕在旁。
+你日常聊天或上传会议转写时，Mars 自动识别与相关人物有关的合作机会、潜在风险和重要信号。每一条都放在这个人的
+「洞察」页，带着证据链——原始引述和来源对话——还能按种类和状态筛选，你要的那条机会不会淹没在列表里。
 
-![Atlas 关系星云——聚焦某个人时，关键信息像卫星一样环绕在旁](./assets/atlas-relation-nebula.webp)
+<p><img src="./assets/filter-relationship-insights.webp" alt="联系人的「洞察」页，种类筛选已展开" width="76%"> <img src="./assets/filter-relationship-insights.phone.webp" alt="筛选联系人的洞察 — iPhone" width="22%"></p>
 
-*示意图 · 模拟数据。*
+*产品实际界面 · 虚构演示数据。*
 
 ### 它读你本来就有的聊天
 
 发一张聊天或转账截图，里面的事实会自动沉淀进这个人的档案——包括完全不涉及金额的往来。你不需要把发生过的
-事再复述一遍，转发就够了。
+事再复述一遍，转发就够了。每条信息都有出处：人物档案的「对话」页列出所有提到这个人的对话和会议转写，
+点一下就回到原话。
 
-![Mars 从中提取事实的一段对话](./assets/mentor-chat.png)
+<p><img src="./assets/wiki-contact-conversations-history.webp" alt="人物档案的「对话」页，列出所有提到这个人的对话" width="76%"> <img src="./assets/wiki-contact-conversations-history.phone.webp" alt="人物档案的「对话」页 — iPhone" width="22%"></p>
 
-*示意图 · 模拟数据。*
+*产品实际界面 · 虚构演示数据。*
 
 ### 它给答案，而不是向你提问
 
@@ -97,8 +99,8 @@ Atlas 把你的联系人渲染成一张可导航的关系图谱——谁把谁�
 所有数据都存储在你自己的隐私云空间中，用户之间完全隔离。Mars 遵循 GDPR（通用数据保护条例）标准处理数据的
 收集、加工与保护，绝不会出售或向任何人共享你的数据、人物档案或对话历史。
 
-本仓库中的每一张截图，要么是示意图，要么是运行在演示账号上的产品实际界面；两者的数据都是**模拟数据**，
-可识别信息已遮挡，不包含任何真实用户信息。
+本仓库中的每一张截图，都是运行在演示账号上的产品实际界面；数据都是**虚构数据**，可识别信息已遮挡，
+不包含任何真实用户信息。
 
 ## 提问
 

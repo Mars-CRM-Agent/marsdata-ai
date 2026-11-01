@@ -15,28 +15,29 @@
 **歡迎頁在你開口之前就把分析做完了。** 打開 Mars，答案已經在那裏：誰最近冷下來了、還有哪些承諾未兌現、
 剛認識的人裏誰最值得繼續跟進。
 
-![歡迎頁打開時分析已經做完](./assets/product-welcome.webp)
+<p><img src="./assets/wiki-relationship-insights.zh-TW.webp" alt="歡迎頁打開時分析已經做完，旁邊是聯絡人的洞察" width="76%"> <img src="./assets/wiki-relationship-insights.phone.zh-TW.webp" alt="歡迎頁打開時分析已經做完 — iPhone" width="22%"></p>
 
 **問一個人，答案來自他的檔案。** 不是來自你當下這段對話，而是在你提問的那一刻，讀取按日期排列的互動日誌、
 記錄往來的賬本和結構化欄位。
 
-![基於結構化檔案生成的回答](./assets/product-chat.webp)
+<p><img src="./assets/open-social-accounts-in-one-tap.zh-TW.webp" alt="對話回答列出這個人檔案裏保存的帳號" width="76%"> <img src="./assets/open-social-accounts-in-one-tap.phone.zh-TW.webp" alt="基於檔案生成的回答 — iPhone" width="22%"></p>
 
-**Atlas 把聯絡人變成一張圖。** 誰把誰引薦給你、哪些話題連着哪些人，一張可導航的關係圖譜；你對一個人了解
-得越多，他的節點就越大。
+**隨口一提，日程和人脈一起更新。** 在對話中告訴 Mars 即將到來的會面，它會儲存事件並關聯參與者；按日、週、月
+查看安排，同一個事件亦會出現在每位相關人物的「事件」頁。
 
-![Atlas 關係星雲渲染出完整的關係圖譜](./assets/product-atlas.webp)
+<p><img src="./assets/wiki-events-calendar.zh-TW.webp" alt="「事件」頁的月視圖日曆" width="76%"> <img src="./assets/wiki-events-calendar.phone.zh-TW.webp" alt="「事件」頁日曆 — iPhone" width="22%"></p>
 
-**每個人都是一份結構化檔案。** 左邊是互動日誌，中間是綜合判斷，右邊是全部結構化欄位——下面還有每一次變更的
-完整歷史。
+**每個人都是一份結構化檔案。** Mars 從對話中提煉的資訊歸入「基本資訊」「家庭」「人脈」「事業與團隊」
+「技術與工具」「觀念與偏好」等清晰分組；這個人的對話、事件和洞察就在旁邊的分頁。
 
-![某個人的檔案：互動日誌、綜合判斷與結構化欄位](./assets/product-person-dossier.webp)
+<p><img src="./assets/wiki-contact-information-groups.zh-TW.webp" alt="人物檔案：資訊按分組展示" width="76%"> <img src="./assets/wiki-contact-information-groups.phone.zh-TW.webp" alt="人物檔案 — iPhone" width="22%"></p>
 
-**這一切都可以隨時翻閱。** 你告訴過 Mars 的每一個人都在同一個列表裏，每人一行，寫清這段關係目前處在哪。
+**這一切都可以隨時翻閱。** 你告訴過 Mars 的每一個人都在同一個列表裏，按最近互動排序，每人一行，寫清這段關係
+目前處在哪。
 
-![關係列表，每人一行摘要](./assets/product-relations-list.webp)
+<p><img src="./assets/wiki-relationship-list.zh-TW.webp" alt="關係列表，每人一行摘要" width="76%"> <img src="./assets/wiki-relationship-list.phone.zh-TW.webp" alt="關係列表 — iPhone" width="22%"></p>
 
-*以上為產品實際介面截圖，運行在一個由模擬數據構建的示範帳號上。*
+*以上為產品網頁版與 iPhone 的實際介面截圖，運行在一個使用虛構數據的示範帳號上。*
 
 ---
 
@@ -57,23 +58,24 @@
 記錄往來的帳本，以及完整的變更紀錄。每條資訊都是獨立欄位——改一條只改這一條；刪一條，這個人以及其餘資訊、
 歷史紀錄原樣保留。
 
-### 你身邊的人成為一張圖
+### 機會和風險，它先替你看見
 
-Atlas 把你的聯絡人繪成一張可導覽的關係圖譜——誰把誰引薦給你、哪些話題連着哪些人、誰的軌道最近安靜了。
-點中一個人，關鍵資訊像衞星一樣環繞在旁。
+你日常聊天或上載會議轉錄時，Mars 自動識別與相關人物有關的合作機會、潛在風險和重要訊號。每一條都放在這個人的
+「洞察」頁，附帶證據鏈——原始引述和來源對話——還能按種類和狀態篩選，你要的那條機會不會淹沒在列表裏。
 
-![Atlas 關係星雲——聚焦某個人時，關鍵資訊像衞星一樣環繞在旁](./assets/atlas-relation-nebula.webp)
+<p><img src="./assets/filter-relationship-insights.zh-TW.webp" alt="聯絡人的「洞察」頁，種類篩選已展開" width="76%"> <img src="./assets/filter-relationship-insights.phone.zh-TW.webp" alt="篩選聯絡人的洞察 — iPhone" width="22%"></p>
 
-*示意圖 · 示範數據。*
+*產品實際介面 · 虛構示範數據。*
 
 ### 它讀你本來就有的對話
 
 發一張對話或轉帳截圖，裏面的事實會自動沉澱進這個人的檔案——包括完全不涉及金額的往來。你不需要把發生過的
-事再複述一次，轉發就夠了。
+事再複述一次，轉發就夠了。每條資訊都有出處：人物檔案的「對話」頁列出所有提到這個人的對話和會議轉錄，
+點一下就回到原話。
 
-![Mars 從中提取事實的一段對話](./assets/mentor-chat-hk.png)
+<p><img src="./assets/wiki-contact-conversations-history.zh-TW.webp" alt="人物檔案的「對話」頁，列出所有提到這個人的對話" width="76%"> <img src="./assets/wiki-contact-conversations-history.phone.zh-TW.webp" alt="人物檔案的「對話」頁 — iPhone" width="22%"></p>
 
-*示意圖 · 示範數據。*
+*產品實際介面 · 虛構示範數據。*
 
 ### 它給答案，而不是向你提問
 
@@ -97,8 +99,8 @@ Atlas 把你的聯絡人繪成一張可導覽的關係圖譜——誰把誰引�
 所有數據都存放在你自己的私人雲端空間，用戶之間完全隔離。Mars 遵循 GDPR（通用數據保障條例）標準處理數據的
 收集、處理與保護，絕不會出售或向任何人分享你的數據、人物檔案或對話紀錄。
 
-本倉庫中的每一張截圖，要麼是示意圖，要麼是運行在示範帳號上的產品實際介面；兩者的數據都是**示範數據**，
-可辨識資訊已遮蔽，不包含任何真實用戶資訊。
+本倉庫中的每一張截圖，都是運行在示範帳號上的產品實際介面；數據都是**虛構數據**，可辨識資訊已遮蔽，
+不包含任何真實用戶資訊。
 
 ## 提問
 

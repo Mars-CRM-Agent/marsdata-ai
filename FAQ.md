@@ -74,8 +74,8 @@ Mars will not recite a value you deleted as if it were still current.
 
 ## Are the screenshots in this repository real user data?
 
-No. Every screenshot here is an illustrative mock-up built from simulated data, with identifying values
-masked. No real person is depicted and no real user's information appears anywhere in this repository.
+No. Every screenshot here is the live product running on a demo account with fictional data, with
+identifying values masked. No real person is depicted and no real user's information appears anywhere in this repository.
 
 ## How much does it cost?
 

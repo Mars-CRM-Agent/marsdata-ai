@@ -16,30 +16,32 @@ receive, keeps a structured record of every person in it, and tells you who to f
 **The welcome screen answers before you ask.** Open Mars and the analysis is already done: who has
 gone quiet, which promises are still open, who among the people you just met is worth following up.
 
-![Welcome screen with the analysis already done](./assets/product-welcome.webp)
+<p><img src="./assets/wiki-relationship-insights.en.webp" alt="Welcome screen with the analysis already done, next to a contact's insights" width="76%"> <img src="./assets/wiki-relationship-insights.phone.en.webp" alt="Welcome screen with the analysis already done — iPhone" width="22%"></p>
 
 **Ask about a person and the answer comes from their record.** Not from the conversation you happen
 to be having — from the dated interaction log, the ledger of what was given and received, and the
 typed fields, read at the moment you ask.
 
-![A chat answer built from a person's structured record](./assets/product-chat.webp)
+<p><img src="./assets/open-social-accounts-in-one-tap.en.webp" alt="A chat answer listing the accounts saved on a person's record" width="76%"> <img src="./assets/open-social-accounts-in-one-tap.phone.en.webp" alt="A chat answer built from a person's record — iPhone" width="22%"></p>
 
-**Atlas turns your contacts into a map.** A navigable graph of who introduced whom and which topics
-connect to which people; a node grows with how much you actually know about that person.
+**Mention a meeting once, and your calendar and contacts both update.** Tell Mars about an upcoming
+meeting in chat and it saves the event and links the people in it; see your schedule by day, week or
+month, and the same event on each person's Events tab.
 
-![Atlas relation nebula rendering the whole contact graph](./assets/product-atlas.webp)
+<p><img src="./assets/wiki-events-calendar.en.webp" alt="The Events calendar in month view" width="76%"> <img src="./assets/wiki-events-calendar.phone.en.webp" alt="The Events calendar — iPhone" width="22%"></p>
 
-**Every person is one structured record.** The interaction log on the left, the synthesized read in
-the middle, every typed field on the right — with a full history of every change underneath.
+**Every person is one structured record.** Facts Mars pulls from your conversations land in clear
+groups — Basic Info, Family, Network, Business & Team, Tech & Tools, Mindset & Preferences — with the
+person's conversations, events and insights one tab away.
 
-![A person's dossier: interaction log, profile and CRM fields](./assets/product-person-dossier.webp)
+<p><img src="./assets/wiki-contact-information-groups.en.webp" alt="A person's record with facts in information groups" width="76%"> <img src="./assets/wiki-contact-information-groups.phone.en.webp" alt="A person's record — iPhone" width="22%"></p>
 
-**All of it stays browsable.** Every person you have told Mars about, in one list, each with the line
-that says where the relationship currently stands.
+**All of it stays browsable.** Every person you have told Mars about, in one list ordered by your
+latest interaction, each with the line that says where the relationship currently stands.
 
-![The relationship list with one summary line per person](./assets/product-relations-list.webp)
+<p><img src="./assets/wiki-relationship-list.en.webp" alt="The relationship list with one summary line per person" width="76%"> <img src="./assets/wiki-relationship-list.phone.en.webp" alt="The relationship list — iPhone" width="22%"></p>
 
-*Screenshots of the live product, running on a demo account built from simulated data.*
+*Screenshots of the live product on the web and iPhone, running on a demo account with fictional data.*
 
 ---
 
@@ -62,24 +64,27 @@ fields, a dated interaction log, a ledger of what was given and received, and a 
 change. Each detail is its own field, so editing one changes only that one, and deleting one leaves
 the person and everything else intact.
 
-### The people around you become a map
+### It spots opportunities and risks before you miss them
 
-Atlas renders your contacts as a navigable graph — who introduced whom, which topics connect to which
-people, whose orbit has gone quiet. Focus a person and their key facts orbit around them.
+As you chat or upload meeting transcripts, Mars picks out opportunities, risks and important signals
+for the people involved. Each one sits on that person's Insights tab with its evidence chain — the
+original quotes and the conversation they came from — and filters by type and status, so the
+opportunity you need is not buried in the list.
 
-![Atlas Relation Nebula — a focused contact with key facts orbiting like satellites](./assets/atlas-relation-nebula.webp)
+<p><img src="./assets/filter-relationship-insights.en.webp" alt="A contact's Insights tab with the type filter open" width="76%"> <img src="./assets/filter-relationship-insights.phone.en.webp" alt="Filtering a contact's insights — iPhone" width="22%"></p>
 
-*Illustrative mock-up · simulated data.*
+*Live product · fictional demo data.*
 
 ### It reads the conversations you already have
 
 Send a screenshot of a chat or a transfer and the facts inside settle into that person's record on
 their own — including exchanges involving no money at all. You do not restate what already happened;
-you forward it.
+you forward it. Every fact keeps its source: a person's Conversations tab lists every chat and
+meeting transcript that mentions them, one tap from the original words.
 
-![A chat thread of the kind Mars reads facts from](./assets/mentor-chat-en.png)
+<p><img src="./assets/wiki-contact-conversations-history.en.webp" alt="A person's Conversations tab listing every chat that mentions them" width="76%"> <img src="./assets/wiki-contact-conversations-history.phone.en.webp" alt="A person's Conversations tab — iPhone" width="22%"></p>
 
-*Illustrative mock-up · simulated data.*
+*Live product · fictional demo data.*
 
 ### It answers instead of asking
 
@@ -105,9 +110,8 @@ All data is stored in your own private cloud space with per-user isolation. Mars
 standard for how data is collected, processed and protected, and never sells or shares your data,
 person profiles, or conversation history with anyone.
 
-Every screenshot in this repository is either an illustrative mock-up or the live product running on
-a demo account. In both cases the data is simulated and identifying values are masked. No real user's
-information appears anywhere here.
+Every screenshot in this repository is the live product running on a demo account. The data is
+fictional and identifying values are masked. No real user's information appears anywhere here.
 
 ## Questions
 
