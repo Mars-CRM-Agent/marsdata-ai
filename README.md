@@ -108,11 +108,12 @@ very next answer.
 Mars protects your information with industry-standard security safeguards. In principle, personal
 information collected in your country or region is stored there and moves elsewhere only after your
 authorization and consent. You can opt out of having your content used to improve Mars's models, and
-Mars never signs in to other websites for you or takes your cookies or passwords. Full terms:
+Mars reads web pages as a signed-out visitor; it does not sign in to other websites for you or ask for
+your cookies or passwords. Full terms:
 [marsdata.ai/privacy](https://marsdata.ai/privacy).
 
 Every screenshot in this repository is the live product running on a demo account. The data is
-fictional and identifying values are masked. No real user's information appears anywhere here.
+fictional and identifying values are masked.
 
 ## Questions
 

@@ -16,7 +16,8 @@ authorization and consent. You can access and correct your account information, 
 your content used to improve Mars's models in your account settings, and delete your account (a 7-day
 cooling-off period lets you change your mind).
 
-Mars never signs in to other websites for you and never takes your cookies or passwords. On iPhone it
+Mars reads web pages as a signed-out visitor; it does not sign in to other websites for you or ask
+for your cookies or passwords. On iPhone it
 reads your contacts, calendar and Apple Health only for the sources you allow, and reading a source
 does not save it. The full terms are in the [privacy policy](https://marsdata.ai/privacy).
 
@@ -91,7 +92,7 @@ after a 7-day cooling-off period; signing in within those 7 days cancels the del
 ## Are the screenshots in this repository real user data?
 
 No. Every screenshot here is the live product running on a demo account with fictional data, with
-identifying values masked. No real person is depicted and no real user's information appears anywhere in this repository.
+identifying values masked. The people and data shown are fictional.
 
 ## How much does it cost?
 
