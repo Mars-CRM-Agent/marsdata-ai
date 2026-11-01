@@ -10,67 +10,83 @@ public, so the next person with the same question finds it.
 
 ## Is my data secure with Marsdata?
 
-Yes. All data is stored in your private cloud space with per-user isolation. We comply with the GDPR
-(General Data Protection Regulation) standard to ensure your data is collected, processed, and
-protected responsibly. Mars never sells or shares your data, person profiles, or conversation history
-with anyone.
+Mars protects your information with industry-standard security safeguards. In principle, personal
+information collected in your country or region is stored there; it moves elsewhere only after your
+authorization and consent. You can access and correct your account information, opt out of having
+your content used to improve Mars's models in your account settings, and delete your account (a 7-day
+cooling-off period lets you change your mind).
+
+Mars never signs in to other websites for you and never takes your cookies or passwords. On iPhone it
+reads your contacts, calendar and Apple Health only for the sources you allow, and reading a source
+does not save it. The full terms are in the [privacy policy](https://marsdata.ai/privacy).
 
 ## What makes Marsdata different from other AI tools?
 
-Mars is purpose-built to help you maintain the relationships that matter — personal ties, sales
-prospects, and your audience — with autonomous task planning and a persistent memory system that grows
-smarter with every conversation. Livestream and social analytics are one of the data sources Mars
-reads to surface who's worth reaching out to.
+A general assistant answers the question in front of it and forgets. Mars keeps a record per person —
+their information in clear groups, events, relationships, insights and summaries, each linked to the
+conversation it came from — so the answer it gives you next month draws on what you told it today.
 
-The practical difference: a general assistant answers the question in front of it and forgets. Mars
-keeps a structured record per person, so the answer it gives you next month is informed by what you
-told it today.
+It also looks ahead for you: it spots opportunities and risks in what people actually said, weighs
+whether to advance, maintain or pause a relationship against your goals, and drafts the message for
+you to send. For customer relationships it can apply sales methods such as BANT and MEDDPICC.
 
 ## Which platforms does Marsdata support?
 
-Mars runs in any modern browser at [marsdata.ai](https://marsdata.ai), installs as a PWA, and ships as
-a native iOS app. As data sources it currently reads Douyin (TikTok China) and WeChat Channels —
-livestream and short-video analytics that surface the people worth following up with. It can also
-browse and collect data from any website through its cloud browser.
+Mars runs in any modern browser at [marsdata.ai](https://marsdata.ai) and as native apps for iPhone,
+iPad and Mac, all on one account, so conversations, people, files and memory match everywhere. On
+iPhone you also get Home Screen and Lock Screen widgets, Siri and Spotlight suggestions, and sharing
+screenshots to Mars from any app.
+
+You can talk to Mars inside WeChat and Feishu, connect Gmail read-only, and import your existing
+contacts. From the iOS app, with your permission, Mars can read your contacts, calendar and Apple
+Health while you chat.
 
 ## How does the memory system work?
 
-Mars automatically extracts five types of knowledge from your conversations — relationships, memories,
-experiences, journals, and skills. This means it remembers the people you care about, past decisions,
-and preferred workflows without any manual input.
+Tell Mars about someone — in a message, a screenshot, a file or a voice note — and it records what was
+clearly said: the person's information in groups such as Basic Info, Family, Network, Business & Team,
+Tech & Tools and Mindset & Preferences, events with everyone who took part, insights and relationship
+summaries, each linked to its source. Sensitive, ambiguous or conflicting details are asked about
+first, and a value that only a web page gave is saved only after you confirm it.
 
-For people specifically, each one becomes a structured record: typed fields, a dated interaction log, a
-ledger of what was given and received, and a full change history. Editing one detail changes only that
-detail; deleting one leaves the person and everything else intact.
+Personal memory holds what Mars knows about you, including your goals. Personal skills turn routines
+such as a daily review into one tap, and the personal dictionary teaches Mars the names and terms you
+use.
 
 ## Can Marsdata handle complex multi-step tasks?
 
-Yes. Just describe your goal and Mars will break it into steps, execute them autonomously, and keep you
-informed at every checkpoint. You can also switch to Deep Mode for thorough analysis of complex
-strategy questions.
+Yes. Deep research proposes the questions it will search, waits for your confirmation, then
+researches, reviews and synthesises with sources, and you can watch every step. Mars can open a new
+conversation to carry out a task, start work on its own when a reminder fires, and show a short
+question panel when it needs a decision from you. For demanding work, switch the model to Mars-2.0
+Blaze (strategic insight) or Mars-1.8 Flare (deep thinking).
 
 ## What input formats does Marsdata understand?
 
-Mars is fully multimodal — it understands text, images, videos, voice messages, and documents like PDFs
-and spreadsheets. You can also paste links, share screenshots, or use voice input for hands-free
-operation.
+Text, voice input, photos and screenshots, audio and video recordings up to 2 GB, and files: PDF,
+Word, Excel, PowerPoint, Keynote, Pages, Numbers, WPS, CSV, Markdown and ZIP or RAR archives. Send a
+public web link and Mars reads the page; send a video link from Douyin, Xiaohongshu, Bilibili,
+Kuaishou or Weibo and it watches the video and tells you what is said.
 
-Screenshots are worth calling out: send a picture of a chat or a transfer and the facts inside it
-settle into that person's record on their own, including exchanges that involve no money at all.
+Screenshots are worth calling out: send a chat screenshot and Mars separates what was said from
+interpretation, records the clearly attributed details on that person's record, and cites the source.
 
 ## What languages does Marsdata speak?
 
-English, 简体中文 and 繁體中文（香港）, across the app, the marketing site, and the relationship views.
+English, 简体中文 and 繁體中文 (for Hong Kong and Taiwan). On first launch Mars follows your device
+language and falls back to English; switch any time in Settings › Language.
 
 ## Do I have to enter data manually to get value?
 
-No — that is the point. Mars reads the conversations and screenshots you already have and builds the
-record from them. Manual editing exists for correction, not for data entry.
+No — that is the point. Mars reads the conversations, screenshots and files you already have and
+builds the record from them. Manual editing exists for correction: edit or delete a field, or move it
+to another group, and Mars keeps your choice.
 
-## What happens to a person's record when I delete something?
+## What happens when I delete something?
 
-Deleting is real deletion. A person or a detail you removed does not come back from an older copy, and
-Mars will not recite a value you deleted as if it were still current.
+Mars asks before deleting a person, a relationship, a goal or a skill, and says what will be removed.
+Deleting an event also removes the insights drawn from it. Deleting your account erases your data
+after a 7-day cooling-off period; signing in within those 7 days cancels the deletion.
 
 ## Are the screenshots in this repository real user data?
 
@@ -79,7 +95,8 @@ identifying values masked. No real person is depicted and no real user's informa
 
 ## How much does it cost?
 
-See [marsdata.ai/pricing](https://marsdata.ai/pricing) for current plans.
+See [marsdata.ai/pricing](https://marsdata.ai/pricing) for current plans. Each answer is charged a
+base model fee plus the cost of any paid tools it calls, and the usage page lists every charge.
 
 ## Where do I report a bug or request a feature?
 

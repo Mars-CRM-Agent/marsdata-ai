@@ -19,8 +19,7 @@ gone quiet, which promises are still open, who among the people you just met is 
 <p><img src="./assets/wiki-relationship-insights.en.webp" alt="Welcome screen with the analysis already done, next to a contact's insights" width="76%"> <img src="./assets/wiki-relationship-insights.phone.en.webp" alt="Welcome screen with the analysis already done — iPhone" width="22%"></p>
 
 **Ask about a person and the answer comes from their record.** Not from the conversation you happen
-to be having — from the dated interaction log, the ledger of what was given and received, and the
-typed fields, read at the moment you ask.
+to be having — from their information, events and insights, read at the moment you ask.
 
 <p><img src="./assets/open-social-accounts-in-one-tap.en.webp" alt="A chat answer listing the accounts saved on a person's record" width="76%"> <img src="./assets/open-social-accounts-in-one-tap.phone.en.webp" alt="A chat answer built from a person's record — iPhone" width="22%"></p>
 
@@ -59,10 +58,10 @@ time, by you. Marsdata moves that cost to the machine.
 
 ### Every person becomes a structured record
 
-Tell Mars about someone — or forward a conversation — and it builds one record per person: typed
-fields, a dated interaction log, a ledger of what was given and received, and a full history of every
-change. Each detail is its own field, so editing one changes only that one, and deleting one leaves
-the person and everything else intact.
+Tell Mars about someone — or forward a conversation — and it builds one record per person:
+information in clear groups, events, relationships, insights and summaries, each linked to the
+conversation it came from. Each detail is its own field, so editing one changes only that one, and a
+field you move to another group stays there.
 
 ### It spots opportunities and risks before you miss them
 
@@ -77,9 +76,9 @@ opportunity you need is not buried in the list.
 
 ### It reads the conversations you already have
 
-Send a screenshot of a chat or a transfer and the facts inside settle into that person's record on
-their own — including exchanges involving no money at all. You do not restate what already happened;
-you forward it. Every fact keeps its source: a person's Conversations tab lists every chat and
+Send a chat screenshot, a file or a voice note — in the app, or to Mars inside WeChat or Feishu — and
+the clearly attributed facts settle into that person's record on their own. You do not restate what
+already happened; you forward it. Every fact keeps its source: a person's Conversations tab lists every chat and
 meeting transcript that mentions them, one tap from the original words.
 
 <p><img src="./assets/wiki-contact-conversations-history.en.webp" alt="A person's Conversations tab listing every chat that mentions them" width="76%"> <img src="./assets/wiki-contact-conversations-history.phone.en.webp" alt="A person's Conversations tab — iPhone" width="22%"></p>
@@ -88,27 +87,29 @@ meeting transcript that mentions them, one tap from the original words.
 
 ### It answers instead of asking
 
-The welcome screen opens with analysis already done: who has gone quiet, which promises are still
-open, who among the people you just met is worth following up with. Mention a person with `@` in chat
-and Mars reads their structured record — the fields, the recent interactions, the ledger — so a detail
-you corrected a minute ago is reflected in the very next answer.
+The welcome screen opens with analysis already done: the meetings coming up, who has gone quiet, and
+which opportunity is worth following up. Pick a person in chat and Mars reads their record — the
+information, recent events and insights — so a detail you corrected a minute ago is reflected in the
+very next answer.
 
 ## What it can handle
 
 | | |
 |---|---|
-| **Memory** | Five kinds of knowledge extracted automatically from conversation — relationships, memories, experiences, journals and skills — with no manual entry |
-| **Inputs** | Fully multimodal: text, images, video, voice messages, and documents including PDFs and spreadsheets; paste a link or share a screenshot |
-| **Multi-step work** | Describe a goal and Mars decomposes it into steps, executes them autonomously, and reports at each checkpoint; Deep Mode for thorough analysis of strategy questions |
-| **Data sources** | Douyin and WeChat Channels livestream and short-video analytics, plus any website through its cloud browser |
-| **Languages** | English, 简体中文, 繁體中文（香港）— across the app, the site and the relationship views |
-| **Platforms** | Web on any modern browser, installable as a PWA, and a native iOS app |
+| **Memory** | Each person's information in clear groups, events, relationships, insights and summaries, every one linked to its source; personal memory, goals, skills and a dictionary for you |
+| **Inputs** | Text, voice, photos and screenshots, recordings up to 2 GB, PDF, Office, iWork and WPS files, web links and social video links |
+| **Multi-step work** | Deep research you can watch step by step; Mars opens a new conversation to carry out a task, starts work on its own at a reminder, and asks with a question panel when it needs you |
+| **Data sources** | Public web pages and search, videos on Douyin, Xiaohongshu, Bilibili, Kuaishou and Weibo, Gmail (read-only), imported contacts, and on iOS your calendar and Apple Health with permission |
+| **Languages** | English, 简体中文, 繁體中文 — the app follows your device language |
+| **Platforms** | Web on any modern browser, native apps for iPhone, iPad and Mac, iPhone widgets, and Mars inside WeChat and Feishu |
 
 ## Privacy
 
-All data is stored in your own private cloud space with per-user isolation. Mars follows the GDPR
-standard for how data is collected, processed and protected, and never sells or shares your data,
-person profiles, or conversation history with anyone.
+Mars protects your information with industry-standard security safeguards. In principle, personal
+information collected in your country or region is stored there and moves elsewhere only after your
+authorization and consent. You can opt out of having your content used to improve Mars's models, and
+Mars never signs in to other websites for you or takes your cookies or passwords. Full terms:
+[marsdata.ai/privacy](https://marsdata.ai/privacy).
 
 Every screenshot in this repository is the live product running on a demo account. The data is
 fictional and identifying values are masked. No real user's information appears anywhere here.

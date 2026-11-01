@@ -31,8 +31,11 @@ body:
       label: Where 使用场景
       options:
         - Web (marsdata.ai)
-        - iOS app
-        - Installed PWA
+        - iPhone app
+        - iPad app
+        - Mac app
+        - Mars in WeChat or Feishu
+        - Web app added to the Home Screen
         - Not specific to one platform
     validations:
       required: false
